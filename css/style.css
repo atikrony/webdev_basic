@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background-color: antiquewhite;
+  border: 20px;
+  height: 60vh;
+  width: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translate(0, -20%);
+  border-radius: 8%;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  display: block;
+}
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.for-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translate(0, -400%);
+}
